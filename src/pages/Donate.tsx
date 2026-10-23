@@ -10,11 +10,6 @@ export default function Donate() {
     >
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <img
-            src="https://i.ibb.co/XxtvMFnH/logo.png"
-            alt="Logo"
-            className="w-24 h-24 mx-auto mb-8"
-          />
           <h1 className="text-4xl font-bold text-yellow-500 mb-8">DONATION</h1>
 
           <div className="bg-white/5 rounded-xl p-8 backdrop-blur-sm mb-8">

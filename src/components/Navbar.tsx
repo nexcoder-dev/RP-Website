@@ -11,20 +11,17 @@ export default function Navbar({ isScrolled }: NavbarProps) {
   return (
     <nav className={`fixed w-full z-50 p-4 transition-all duration-300 ${isScrolled ? 'bg-[#1a1a1a]/80 backdrop-blur-sm' : 'bg-transparent'}`}>
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="flex items-center gap-2">
-          <img
-            src="https://i.ibb.co/XxtvMFnH/logo.png"
-            alt="Logo"
-            className="w-12 h-12 rounded-full"
-          />
+        <Link to="/" className="flex items-center gap-3 group">
           <div>
-            <h1 className="text-xl font-bold text-white">IntrovertIRL</h1>
-            <p className="text-sm text-white opacity-80">Roleplay</p>
+            <h1 className="text-xl font-bold text-white tracking-wide group-hover:text-yellow-400 transition-colors">
+              IntrovertIRL
+            </h1>
+            <p className="text-xs text-white/80 font-medium tracking-wider uppercase">Roleplay</p>
           </div>
           <img
             src="https://i.ibb.co/ks6DhNM2/flag.png"
             alt="Indian Flag"
-            className="w-20 h-auto object-contain"
+            className="w-14 h-auto object-contain"
           />
         </Link>
 
